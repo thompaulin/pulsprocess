@@ -1,0 +1,18 @@
+<svg width="360" height="86" viewBox="0 0 360 86" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pulse & Process</title>
+  <desc id="desc">Logo Pulse & Process, symbole PP avec ligne de pulse et points de process</desc>
+  <rect width="360" height="86" rx="18" fill="none"/>
+  <g transform="translate(4 10)">
+    <path d="M10 60V7h32c17 0 28 10 28 25S59 57 42 57H26v3H10Zm16-17h15c8 0 13-4 13-11s-5-11-13-11H26v22Z" fill="#111827"/>
+    <path d="M76 60V7h32c17 0 28 10 28 25S125 57 108 57H92v3H76Zm16-17h15c8 0 13-4 13-11s-5-11-13-11H92v22Z" fill="#1473E6"/>
+    <path d="M0 39h23l7-20 10 39 9-29h20" stroke="#1473E6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M69 39h20" stroke="#1473E6" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="91" cy="39" r="6" fill="#F8FAFC" stroke="#1473E6" stroke-width="4"/>
+    <path d="M97 39h21" stroke="#1473E6" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="122" cy="39" r="6" fill="#F8FAFC" stroke="#1473E6" stroke-width="4"/>
+  </g>
+  <g transform="translate(160 16)">
+    <text x="0" y="24" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="750" letter-spacing=".04em" fill="#111827">PULSE <tspan fill="#1473E6">&amp;</tspan> PROCESS</text>
+    <text x="2" y="52" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="650" letter-spacing=".28em" fill="#475569">DIGITAL • EVENT • CRAFT</text>
+  </g>
+</svg>

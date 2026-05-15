@@ -1,59 +1,38 @@
-# Pulse & Process — Site v2 clean
+# Pulse & Process — V4 fichiers à plat avec visuels inclus
 
-Version statique HTML/CSS/JS prête pour GitHub + Vercel.
+Cette version est faite pour GitHub quand tu ne peux importer que des fichiers, pas des dossiers.
 
-## Structure
+## Important
 
-- `index.html` : page d’accueil, avec les trois pôles bien séparés.
-- `digital.html` : pôle Digital & Process.
-- `evenementiel.html` : pôle Event & Sound.
-- `artisanat.html` : pôle Craft & Custom.
-- `mentions-legales.html` : page provisoire à compléter.
-- `styles.css` : design, couleurs, responsive.
-- `script.js` : menu mobile, animations, placeholders images.
-- `assets/` : logo SVG, favicon.
-- `images/` : dossier où ajouter les photos.
+Tu dois uploader les fichiers décompressés directement à la racine du dépôt GitHub.
+Ne mets pas le fichier ZIP dans GitHub.
 
-## Images à ajouter
+## Fichiers principaux
 
-Ajoute tes vraies photos dans le dossier `images/` avec ces noms :
+- index.html : accueil
+- digital.html : pôle Digital & Process
+- evenementiel.html : pôle Event & Sound
+- artisanat.html : pôle Craft & Custom
+- mentions-legales.html : mentions légales à compléter
+- styles.css : design
+- script.js : menu mobile + animations
+- logo-pulse-process.svg : logo
+- favicon.svg : favicon
 
-### Accueil
-- `digital-dashboard.jpg`
-- `event-lighting.jpg`
-- `craft-frame.jpg`
-- `project-excel-location.jpg`
-- `project-event-installation.jpg`
-- `project-brake-clock.jpg`
+## Images incluses
 
-### Page Digital
-- `digital-dashboard.jpg`
-- `digital-invoice-tool.jpg`
-- `digital-automation.jpg`
+Les visuels sont des SVG originaux créés pour cette version. Ils sont libres d’utilisation pour ton site.
+Tu peux les remplacer plus tard par tes vraies photos en gardant exactement les mêmes noms de fichiers :
 
-### Page Événementiel
-- `event-lighting.jpg`
-- `event-sound-system.jpg`
-- `event-installation.jpg`
+- digital-dashboard.svg
+- event-sound-light.svg
+- event-speakers.svg
+- event-lighting.svg
+- event-setup.svg
+- brake-disc-clock.svg
+- custom-frame.svg
+- brake-clock-detail.svg
+- custom-engraving.svg
 
-### Page Créations
-- `craft-frame.jpg`
-- `craft-brake-clock.jpg`
-- `craft-engraving.jpg`
-
-Si une image manque, le site affiche automatiquement un placeholder propre.
-
-## Mise à jour sur GitHub
-
-1. Remplacer les anciens fichiers du dépôt par ceux de ce dossier.
-2. Commit changes.
-3. Vercel redéploie automatiquement.
-
-## Couleurs
-
-- Charcoal : `#0b1220`
-- Bleu principal : `#147bff`
-- Bleu clair : `#1ea7ff`
-- Violet event : `#7c4dff`
-- Orange craft : `#ff9f1c`
-- Fond clair : `#f4f7fb`
+Si tu remplaces par des JPG/PNG, il faudra aussi modifier les `src` dans les fichiers HTML.
+Le plus simple : remplacer les SVG par d'autres SVG ayant le même nom, ou me demander d'adapter le code.
