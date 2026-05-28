@@ -1,38 +1,32 @@
-# Pulse & Process — V4 fichiers à plat avec visuels inclus
+# Pulse & Process — site vitrine final
 
-Cette version est faite pour GitHub quand tu ne peux importer que des fichiers, pas des dossiers.
+Site statique prêt pour GitHub + Vercel.
 
-## Important
+## Fichiers à importer à la racine du dépôt GitHub
 
-Tu dois uploader les fichiers décompressés directement à la racine du dépôt GitHub.
-Ne mets pas le fichier ZIP dans GitHub.
+- index.html
+- pulse.html
+- process.html
+- artisanat.html
+- realisations.html
+- contact.html
+- mentions-legales.html
+- styles.css
+- script.js
+- README.md
 
-## Fichiers principaux
+Aucun dossier et aucune image locale ne sont nécessaires.
 
-- index.html : accueil
-- digital.html : pôle Digital & Process
-- evenementiel.html : pôle Event & Sound
-- artisanat.html : pôle Craft & Custom
-- mentions-legales.html : mentions légales à compléter
-- styles.css : design
-- script.js : menu mobile + animations
-- logo-pulse-process.svg : logo
-- favicon.svg : favicon
+## Visuels
 
-## Images incluses
+Les visuels du site sont des illustrations SVG intégrées directement dans le code HTML.
+Avantage : aucun fichier image manquant, aucun problème de dossier, aucun lien cassé.
 
-Les visuels sont des SVG originaux créés pour cette version. Ils sont libres d’utilisation pour ton site.
-Tu peux les remplacer plus tard par tes vraies photos en gardant exactement les mêmes noms de fichiers :
+Pour remplacer un visuel par une vraie photo :
+1. Uploade la photo à la racine du dépôt GitHub, par exemple : `sono-evenement.jpg`
+2. Remplace le bloc SVG concerné dans la page par :
+   `<img class="visual-svg" src="sono-evenement.jpg" alt="Description de l’image">`
 
-- digital-dashboard.svg
-- event-sound-light.svg
-- event-speakers.svg
-- event-lighting.svg
-- event-setup.svg
-- brake-disc-clock.svg
-- custom-frame.svg
-- brake-clock-detail.svg
-- custom-engraving.svg
+## Déploiement
 
-Si tu remplaces par des JPG/PNG, il faudra aussi modifier les `src` dans les fichiers HTML.
-Le plus simple : remplacer les SVG par d'autres SVG ayant le même nom, ou me demander d'adapter le code.
+Après chaque modification sur GitHub, Vercel redéploie automatiquement le site.
