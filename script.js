@@ -1,1 +1,28 @@
-const navToggle=document.querySelector("[data-nav-toggle]");const nav=document.querySelector("[data-nav]");if(navToggle&&nav){navToggle.addEventListener("click",()=>{const open=nav.classList.toggle("is-open");navToggle.classList.toggle("is-open",open);navToggle.setAttribute("aria-expanded",String(open))})}document.querySelectorAll("[data-nav] a").forEach(link=>{link.addEventListener("click",()=>{nav?.classList.remove("is-open");navToggle?.classList.remove("is-open");navToggle?.setAttribute("aria-expanded","false")})});const year=document.querySelector("[data-year]");if(year)year.textContent=new Date().getFullYear();const reveals=document.querySelectorAll(".reveal");const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("is-visible");observer.unobserve(entry.target)}})},{threshold:.12});reveals.forEach(el=>observer.observe(el));const filterButtons=document.querySelectorAll("[data-filter]");const projects=document.querySelectorAll("[data-projects] [data-category]");filterButtons.forEach(button=>{button.addEventListener("click",()=>{const filter=button.dataset.filter;filterButtons.forEach(btn=>btn.classList.remove("is-active"));button.classList.add("is-active");projects.forEach(project=>{const visible=filter==="all"||project.dataset.category===filter;project.hidden=!visible})})});
+
+const toggle = document.querySelector('[data-menu-toggle]');
+const nav = document.querySelector('[data-nav]');
+if (toggle && nav) toggle.addEventListener('click', () => nav.classList.toggle('is-open'));
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+const filterBar = document.querySelector('[data-filter-bar]');
+if (filterBar) {
+  const buttons = filterBar.querySelectorAll('[data-filter]');
+  const items = document.querySelectorAll('.portfolio-item');
+  buttons.forEach((btn) => btn.addEventListener('click', () => {
+    buttons.forEach((b) => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    items.forEach((item) => {
+      item.classList.toggle('is-hidden', filter !== 'all' && item.dataset.category !== filter);
+    });
+  }));
+}
