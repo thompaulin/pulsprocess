@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" rx="38" fill="#08111f"/>
+  <circle cx="740" cy="120" r="180" fill="rgba(56,189,248,.12)"/>
+  <circle cx="150" cy="550" r="180" fill="rgba(251,191,36,.08)"/>
+  <rect x="96" y="88" width="708" height="474" rx="32" fill="#111827" stroke="rgba(255,255,255,.13)"/>
+  <text x="140" y="152" fill="#f8fafc" font-family="Inter,Arial" font-weight="800" font-size="32">Plan d’amélioration</text>
+  <text x="140" y="190" fill="#94a3b8" font-family="Inter,Arial" font-size="18">Actions terrain classées par impact, coût et facilité</text>
+  <g font-family="Inter,Arial" font-size="16" font-weight="700">
+    <rect x="140" y="245" width="620" height="54" rx="16" fill="rgba(56,189,248,.1)" stroke="rgba(56,189,248,.25)"/><text x="168" y="279" fill="#dff7ff">1. Préparer les éléments hors arrêt machine</text><text x="650" y="279" fill="#38bdf8">+12 min</text>
+    <rect x="140" y="315" width="620" height="54" rx="16" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.12)"/><text x="168" y="349" fill="#e2e8f0">2. Réduire les déplacements entre zones</text><text x="650" y="349" fill="#fbbf24">+8 min</text>
+    <rect x="140" y="385" width="620" height="54" rx="16" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.12)"/><text x="168" y="419" fill="#e2e8f0">3. Standardiser la checklist opérateur</text><text x="650" y="419" fill="#fbbf24">+6 min</text>
+    <rect x="140" y="455" width="620" height="54" rx="16" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.12)"/><text x="168" y="489" fill="#e2e8f0">4. Suivre les écarts dans un tableau simple</text><text x="650" y="489" fill="#38bdf8">Suivi</text>
+  </g>
+</svg>

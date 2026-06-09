@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="blue" x1="0" x2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a5f3fc"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#fbbf24"/><stop offset="1" stop-color="#fde68a"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="900" height="1100" fill="#060b14"/>
+  <circle cx="760" cy="140" r="260" fill="rgba(56,189,248,.14)"/>
+  <circle cx="150" cy="940" r="300" fill="rgba(251,191,36,.10)"/>
+  <rect x="70" y="82" width="760" height="936" rx="44" fill="#0f172a" stroke="rgba(255,255,255,.14)" filter="url(#shadow)"/>
+  <text x="120" y="160" fill="#f8fafc" font-family="Inter,Arial" font-weight="900" font-size="42">Process Board</text>
+  <text x="120" y="204" fill="#94a3b8" font-family="Inter,Arial" font-size="22">Flux · temps · actions · outils</text>
+  <g transform="translate(120 265)">
+    <rect width="200" height="128" rx="26" fill="rgba(56,189,248,.12)" stroke="rgba(56,189,248,.32)"/>
+    <text x="28" y="50" fill="#94a3b8" font-family="Inter,Arial" font-size="18">Temps gagné</text>
+    <text x="28" y="94" fill="#f8fafc" font-family="Inter,Arial" font-weight="900" font-size="42">-18%</text>
+  </g>
+  <g transform="translate(350 265)">
+    <rect width="200" height="128" rx="26" fill="rgba(251,191,36,.12)" stroke="rgba(251,191,36,.32)"/>
+    <text x="28" y="50" fill="#94a3b8" font-family="Inter,Arial" font-size="18">Actions</text>
+    <text x="28" y="94" fill="#f8fafc" font-family="Inter,Arial" font-weight="900" font-size="42">12</text>
+  </g>
+  <g transform="translate(580 265)">
+    <rect width="200" height="128" rx="26" fill="rgba(255,255,255,.055)" stroke="rgba(255,255,255,.13)"/>
+    <text x="28" y="50" fill="#94a3b8" font-family="Inter,Arial" font-size="18">Suivi</text>
+    <text x="28" y="94" fill="#34d399" font-family="Inter,Arial" font-weight="900" font-size="42">OK</text>
+  </g>
+  <rect x="120" y="455" width="660" height="250" rx="34" fill="#08111f" stroke="rgba(255,255,255,.12)"/>
+  <text x="155" y="510" fill="#f8fafc" font-family="Inter,Arial" font-weight="800" font-size="25">Cartographie des étapes</text>
+  <path d="M165 632h120c40 0 40-80 85-80h70c45 0 45 120 95 120h110c38 0 38-70 78-70" fill="none" stroke="url(#blue)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="165" cy="632" r="14" fill="#38bdf8"/><circle cx="386" cy="552" r="14" fill="#38bdf8"/><circle cx="535" cy="672" r="14" fill="#fbbf24"/><circle cx="723" cy="602" r="14" fill="#38bdf8"/>
+  <rect x="120" y="755" width="660" height="70" rx="22" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.12)"/>
+  <text x="155" y="798" fill="#e2e8f0" font-family="Inter,Arial" font-size="20">Préparer hors arrêt · réduire les allers-retours · standardiser</text>
+  <rect x="120" y="850" width="310" height="96" rx="24" fill="rgba(56,189,248,.10)" stroke="rgba(56,189,248,.22)"/>
+  <text x="152" y="888" fill="#dff7ff" font-family="Inter,Arial" font-weight="800" font-size="19">Outils simples</text>
+  <text x="152" y="920" fill="#94a3b8" font-family="Inter,Arial" font-size="17">Excel · checklists · indicateurs</text>
+  <rect x="470" y="850" width="310" height="96" rx="24" fill="rgba(251,191,36,.10)" stroke="rgba(251,191,36,.22)"/>
+  <text x="502" y="888" fill="#fde68a" font-family="Inter,Arial" font-weight="800" font-size="19">Terrain d’abord</text>
+  <text x="502" y="920" fill="#94a3b8" font-family="Inter,Arial" font-size="17">Observation · analyse · actions</text>
+</svg>
