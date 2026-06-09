@@ -1,8 +1,8 @@
 # Pulse & Process — site vitrine
 
-Version statique HTML/CSS/JS prête pour GitHub + Vercel.
+Site statique prêt à publier sur GitHub + Vercel.
 
-## Fichiers principaux
+Fichiers principaux :
 - index.html
 - pulse.html
 - process.html
@@ -12,14 +12,6 @@ Version statique HTML/CSS/JS prête pour GitHub + Vercel.
 - styles.css
 - script.js
 
-## Mise en ligne
-1. Dézipper le fichier.
-2. Envoyer tous les fichiers décompressés à la racine du dépôt GitHub.
-3. Faire "Commit changes".
-4. Vercel redéploie automatiquement.
+Tous les médias sont placés à la racine pour faciliter l'upload fichier par fichier sur GitHub.
 
-## Modifier une image
-Remplacer le fichier .webp correspondant par une image portant exactement le même nom.
-
-## Modifier un texte
-Ouvrir la page HTML correspondante, modifier le texte, puis faire "Commit changes".
+Pour mettre en ligne : dézipper, envoyer les fichiers décompressés dans le dépôt GitHub, puis faire Commit changes.
