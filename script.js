@@ -1,29 +1,37 @@
+
+const header = document.querySelector('[data-header]');
 const toggle = document.querySelector('[data-menu-toggle]');
 const nav = document.querySelector('[data-nav]');
+
 if (toggle && nav) {
   toggle.addEventListener('click', () => {
     nav.classList.toggle('is-open');
-    toggle.classList.toggle('is-open');
   });
 }
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) entry.target.classList.add('is-visible');
+const reveals = document.querySelectorAll('.reveal');
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      revealObserver.unobserve(entry.target);
+    }
   });
 }, { threshold: 0.12 });
+reveals.forEach(el => revealObserver.observe(el));
 
-document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+const filterButtons = document.querySelectorAll('[data-filter]');
+const portfolioItems = document.querySelectorAll('.portfolio-item');
 
-const buttons = document.querySelectorAll('[data-filter]');
-const items = document.querySelectorAll('[data-category]');
-buttons.forEach((btn) => {
+filterButtons.forEach(btn => {
   btn.addEventListener('click', () => {
-    buttons.forEach((b) => b.classList.remove('active'));
-    btn.classList.add('active');
     const filter = btn.dataset.filter;
-    items.forEach((item) => {
-      item.classList.toggle('is-hidden', filter !== 'all' && item.dataset.category !== filter);
+    filterButtons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    portfolioItems.forEach(item => {
+      const match = filter === 'all' || item.dataset.category === filter;
+      item.classList.toggle('is-hidden', !match);
     });
   });
 });

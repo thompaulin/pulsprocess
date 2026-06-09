@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Process — Amélioration terrain, flux et outils de pilotage</title>
-  <meta name="description" content="Process accompagne les entreprises et petites structures dans l’optimisation des flux, des temps, des déplacements et la création d’outils simples.">
-  <meta property="og:title" content="Process — Amélioration terrain, flux et outils de pilotage">
-  <meta property="og:description" content="Process accompagne les entreprises et petites structures dans l’optimisation des flux, des temps, des déplacements et la création d’outils simples.">
+  <title>Process — Amélioration terrain, SMED, CAO et outils | Pulse & Process</title>
+  <meta name="description" content="Process accompagne les entreprises sur les temps de changement, flux, aménagements, CAO, SMED, Excel et outils de pilotage.">
+  <meta property="og:title" content="Process — Amélioration terrain, SMED, CAO et outils | Pulse & Process">
+  <meta property="og:description" content="Process accompagne les entreprises sur les temps de changement, flux, aménagements, CAO, SMED, Excel et outils de pilotage.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://pulseprocess.fr">
   <meta name="theme-color" content="#05070b">
@@ -14,9 +14,14 @@
   <link rel="preload" href="styles.css" as="style">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="process-page">
+<body>
 <header class="site-header" data-header>
-  <a class="brand" href="index.html" aria-label="Retour à l’accueil Pulse & Process"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="48" height="48" rx="15" fill="currentColor" opacity=".12"/><path d="M12 31h7l3-12 5 24 4-17h9" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 15h10c7 0 11 4 11 10s-4 10-11 10h-6" fill="none" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/></svg></span><span><strong>Pulse &amp; Process</strong><em>Événementiel · Process</em></span></a>
+  <a class="brand" href="index.html" aria-label="Retour à l’accueil Pulse & Process"><span class="brand-mark" aria-hidden="true">
+<svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+<rect x="4" y="4" width="72" height="72" rx="22" fill="currentColor" opacity=".12"/>
+<path d="M14 47h12l4-22 9 41 7-30h22" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 22h16c12 0 18 6 18 17s-7 18-19 18h-9" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+</svg></span><span><strong>Pulse &amp; Process</strong><em>Équiper · Optimiser</em></span></a>
   <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" data-menu-toggle><span></span><span></span></button>
   <nav class="site-nav" data-nav><a class="nav-link " href="index.html">Accueil</a>
 <a class="nav-link " href="pulse.html">Pulse</a>
@@ -27,58 +32,115 @@
 </header>
 <main>
 
-<section class="page-hero process-page">
-  <div class="reveal"><p class="eyebrow process-color">Process</p><h1 class="page-title">Amélioration terrain, flux et outils simples.</h1><p class="lead">Process aide les entreprises, ateliers, lieux recevant du public et petites structures à gagner du temps, clarifier leur organisation et mieux suivre leur activité.</p><div class="btn-row"><a class="btn process" href="contact.html">Présenter un besoin</a><a class="btn ghost" href="realisations.html">Voir les exemples</a></div><div class="stats-row"><div class="stat"><strong>Flux</strong><span>déplacements utiles</span></div><div class="stat"><strong>Temps</strong><span>changements & tâches</span></div><div class="stat"><strong>Outils</strong><span>Excel, sites, IA</span></div></div></div>
-  <div class="page-hero-media reveal delay-1"><img src="process-hero.svg" alt="Interface Process avec flux, temps et indicateurs"></div>
+<section class="page-hero process-theme">
+  <div class="hero-copy reveal">
+    <p class="eyebrow">Process</p>
+    <h1>Améliorer les temps, les flux, les postes et les outils de pilotage.</h1>
+    <p class="hero-lead">Process intervient sur le terrain pour observer le fonctionnement réel, identifier les pertes, structurer les actions et concevoir des solutions utiles : méthode SMED, flux, implantation, CAO, Excel, checklists et outils simples.</p>
+    <div class="hero-actions"><a class="btn primary" href="contact.html">Analyser un besoin</a><a class="btn ghost" href="#cas-process">Voir les cas concrets</a></div>
+  </div>
+  <div class="page-hero-media reveal delay-1"><img src="process-hero.webp" alt="Plateforme de maintenance installée autour d’un palettiseur industriel"></div>
 </section>
 
-<section id="terrain" class="section container process-page">
-  <div class="two-col">
-    <div class="reveal"><p class="eyebrow process-color">Terrain</p><h2 class="section-title">Avant de créer un outil, il faut comprendre le fonctionnement réel.</h2><p class="lead">Process part du terrain : qui fait quoi, dans quel ordre, avec quelles contraintes, quels déplacements et quelles pertes de temps. L’objectif n’est pas de théoriser, mais de rendre le fonctionnement plus fluide.</p><div class="chips"><span>Observation terrain</span><span>Flux</span><span>Déplacements</span><span>Temps de changement</span><span>Implantation</span><span>Standardisation</span></div></div>
-    <div class="service-grid">
-      <article class="service-card process-highlight reveal"><h3>Analyse des flux</h3><p>Repérer les allers-retours, les attentes, les zones mal placées et les étapes qui ralentissent le travail.</p></article>
-      <article class="service-card reveal delay-1"><h3>Temps de changement</h3><p>Identifier ce qui peut être préparé avant, simplifié, déplacé ou standardisé pour réduire l’arrêt ou le temps perdu.</p></article>
-      <article class="service-card reveal"><h3>Aménagement d’espace</h3><p>Réfléchir à l’implantation d’un poste, d’une zone technique, d’un bar, d’un espace événementiel ou d’un atelier.</p></article>
-      <article class="service-card reveal delay-1"><h3>Plan d’actions</h3><p>Prioriser les améliorations selon l’impact, le coût, la simplicité de mise en place et les contraintes terrain.</p></article>
+<section id="diagnostic" class="section split-section">
+  <div class="split-copy reveal">
+    <p class="eyebrow">Diagnostic terrain</p>
+    <h2>Comprendre ce qui se passe réellement avant de proposer une solution.</h2>
+    <p>Une amélioration efficace ne commence pas dans un fichier : elle commence par l’observation du terrain. Les déplacements, les accès, les temps d’attente, les réglages, les informations dispersées et les tâches répétitives sont analysés pour construire un plan d’action utile.</p>
+  </div>
+  <div class="service-grid">
+    <article class="service-card reveal"><h3>Observation & chronométrage</h3><p>Suivre les opérations, mesurer les temps et distinguer ce qui crée réellement de la perte.</p></article>
+    <article class="service-card reveal delay-1"><h3>Flux & déplacements</h3><p>Identifier les trajets inutiles, les zones mal implantées et les manipulations répétées.</p></article>
+    <article class="service-card reveal"><h3>Postes & accès</h3><p>Améliorer les accès, la sécurité d’usage et la répétabilité des gestes.</p></article>
+    <article class="service-card reveal delay-1"><h3>Outils de pilotage</h3><p>Créer des tableaux Excel, checklists ou indicateurs pour suivre les actions dans le temps.</p></article>
+  </div>
+</section>
+
+<section id="smed" class="section media-feature">
+  <div class="feature-img reveal"><img src="process-smed-dashboard.webp" alt="Tableau de synthèse d’une démarche SMED avec actions et gains potentiels"></div>
+  <div class="feature-copy reveal delay-1">
+    <p class="eyebrow">Méthode SMED</p>
+    <h2>Réduire les temps de changement sans perdre la logique terrain.</h2>
+    <p>La démarche SMED permet de séparer ce qui doit être fait machine arrêtée de ce qui peut être préparé avant, puis de réduire, standardiser ou automatiser les opérations critiques.</p>
+    <ul class="check-list">
+      <li>Observation de plusieurs changements représentatifs.</li>
+      <li>Classement des pertes : réglages, accès, informations, préparation, nettoyage.</li>
+      <li>Plan d’actions priorisé par gain, coût, faisabilité et responsable.</li>
+      <li>Validation par essais avant/après pour passer de l’estimé au mesuré.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="cao" class="section dark-band">
+  <div class="band-grid reveal">
+    <div><p class="eyebrow">CAO & implantation</p><h2>Passer d’un problème terrain à une solution modélisée et exploitable.</h2></div>
+    <div class="text-cols">
+      <p>Lorsqu’un aménagement ou une pièce doit être imaginé, la CAO permet de vérifier les volumes, les accès, les interférences, les dimensions et les contraintes avant réalisation.</p>
+      <p>Plans, mises en plan, vues 3D et photos terrain permettent aux responsables, opérateurs et fournisseurs de comprendre rapidement la solution proposée.</p>
     </div>
   </div>
 </section>
 
-<section id="flux" class="section container process-page">
-  <div class="media-feature two-col">
-    <div class="media-frame reveal"><img src="process-layout.svg" alt="Schéma d’implantation Process avec zones et flux"></div>
-    <div class="reveal delay-1"><p class="eyebrow process-color">Exemples d’intervention</p><h2 class="section-title">Process ne se limite pas à l’industrie.</h2><p class="lead">L’amélioration peut concerner une ligne de production, un atelier, une réserve, une installation événementielle, une boîte de nuit, un restaurant ou un espace technique. Dès qu’il y a des déplacements, des tâches répétitives et du matériel à organiser, il y a matière à optimiser.</p><div class="chips"><span>Atelier</span><span>PME</span><span>Stock</span><span>Événementiel</span><span>Boîte de nuit</span><span>Maintenance</span></div></div>
+<section id="cas-process" class="section">
+  <div class="section-heading reveal"><p class="eyebrow">Cas concrets Process</p><h2>Modéliser, chiffrer, standardiser, puis mettre en place.</h2></div>
+  <div class="process-case-grid">
+    <article class="case-card reveal">
+      <img src="process-platform-cao.webp" alt="Modélisation CAO d’une plateforme de maintenance">
+      <div><span>01 · Conception</span><h3>Plateforme de maintenance</h3><p>Prise de cotes terrain, intégration autour de la machine, modélisation 3D et validation des accès.</p></div>
+    </article>
+    <article class="case-card reveal delay-1">
+      <img src="process-platform-plan.webp" alt="Mise en plan d’une plateforme avec dimensions">
+      <div><span>02 · Mise en plan</span><h3>Plans exploitables</h3><p>Vues cotées, dimensions principales et support clair pour consultation, fabrication ou validation.</p></div>
+    </article>
+    <article class="case-card reveal delay-2">
+      <img src="process-platform-real.webp" alt="Plateforme installée autour d’un palettiseur">
+      <div><span>03 · Réalisation</span><h3>Implantation réelle</h3><p>Passage de l’étude à une installation physique adaptée au fonctionnement du poste.</p></div>
+    </article>
   </div>
 </section>
 
-<section id="outils" class="section container process-page">
-  <div class="section-heading reveal"><div><p class="eyebrow process-color">Outils</p><h2 class="section-title">Des supports simples pour piloter sans s’éparpiller.</h2></div><p class="lead">Les outils arrivent après l’analyse : Excel, Google Sheets, mini-sites, formulaires, checklists ou usages IA simples. Le but est de suivre l’activité sans créer une usine à gaz.</p></div>
-  <div class="preview-grid">
-    <article class="preview-card reveal"><img src="process-excel.svg" alt="Tableau de bord Excel pour suivre une activité"><div><span class="card-kicker process">Tableaux de bord</span><h3>Excel / Google Sheets</h3><p>Suivi stock, devis, factures, paiements, planning, production, maintenance et indicateurs.</p></div></article>
-    <article class="preview-card reveal delay-1"><img src="process-audit.svg" alt="Plan d’amélioration Process"><div><span class="card-kicker process">Plan d’actions</span><h3>Priorisation terrain</h3><p>Actions classées par gain attendu, difficulté, coût et faisabilité.</p></div></article>
-    <article class="preview-card reveal delay-2"><img src="process-flow.svg" alt="Schéma de flux Process"><div><span class="card-kicker process">Automatisation</span><h3>Sites, formulaires & IA</h3><p>Pages simples, aides à la décision, checklists et automatisations utiles pour gagner du temps.</p></div></article>
+<section class="section media-feature reverse">
+  <div class="feature-copy reveal">
+    <p class="eyebrow">Flux & VSM</p>
+    <h2>Voir l’ensemble du processus pour agir au bon endroit.</h2>
+    <p>La cartographie permet de relier les étapes, les stocks, les temps, les attentes et les échanges d’information. Elle aide à prioriser les améliorations au lieu de traiter les symptômes isolés.</p>
+    <ul class="check-list">
+      <li>Visualisation des flux matière et information.</li>
+      <li>Repérage des étapes à faible valeur ajoutée.</li>
+      <li>Identification des stocks, attentes et boucles inutiles.</li>
+      <li>Base claire pour discuter avec les équipes et décider.</li>
+    </ul>
+  </div>
+  <div class="feature-img reveal delay-1"><img src="process-vsm.webp" alt="Cartographie VSM d’un processus de production"></div>
+</section>
+
+<section id="outils" class="section">
+  <div class="section-heading reveal"><p class="eyebrow">Outils simples</p><h2>Des fichiers et supports qui servent vraiment au quotidien.</h2><p>Process peut compléter l’amélioration terrain par des outils de suivi simples : tableaux Excel, checklists, indicateurs, plans d’action, synthèses ou supports de décision.</p></div>
+  <div class="gallery-grid process-gallery">
+    <article class="gallery-card large reveal"><img src="process-layout-cad.webp" alt="Modélisation CAO d’un système d’aménagement technique"><div><span>CAO</span><h3>Études et prévisualisations</h3></div></article>
+    <article class="gallery-card reveal"><img src="process-layout-model.webp" alt="Vue d’ensemble d’une implantation CAO"><div><span>Implantation</span><h3>Analyse des volumes</h3></div></article>
+    <article class="gallery-card reveal"><img src="process-cad-detail.webp" alt="Modélisation d’un sous-ensemble mécanique"><div><span>Détail</span><h3>Pièces et sous-ensembles</h3></div></article>
+    <article class="gallery-card reveal"><img src="process-platform-real-2.webp" alt="Plateforme industrielle installée en usine"><div><span>Terrain</span><h3>Solution installée</h3></div></article>
   </div>
 </section>
 
-<section class="section container process-page">
-  <div class="section-heading reveal"><div><p class="eyebrow process-color">Méthode</p><h2 class="section-title">Une démarche courte, claire et orientée résultat.</h2></div></div>
-  <div class="steps-grid">
-    <article class="step-card reveal"><span>01</span><h3>Comprendre</h3><p>Échange sur le besoin, les contraintes, les utilisateurs et le résultat recherché.</p></article>
-    <article class="step-card reveal delay-1"><span>02</span><h3>Observer</h3><p>Analyse terrain, repérage des temps perdus, déplacements et points de blocage.</p></article>
-    <article class="step-card reveal delay-2"><span>03</span><h3>Structurer</h3><p>Proposition d’actions, outils, checklists, tableaux ou aménagements adaptés.</p></article>
-    <article class="step-card reveal delay-2"><span>04</span><h3>Livrer</h3><p>Mise à disposition d’une solution claire, compréhensible et réellement utilisable.</p></article>
-  </div>
-</section>
-
-<section class="cta-section reveal"><p class="eyebrow process-color">Process</p><h2 class="cta-title">Un fonctionnement à simplifier ?</h2><p class="lead" style="margin-left:auto;margin-right:auto">Le besoin peut partir d’un temps trop long, d’un poste mal organisé, d’un fichier difficile à utiliser ou d’un suivi inexistant.</p><a class="btn process" href="contact.html">Décrire le problème</a></section>
+<section class="cta-section reveal"><p class="eyebrow">Process</p><h2>Un temps de changement, un flux ou une organisation à clarifier ?</h2><a class="btn primary" href="contact.html">Demander un diagnostic</a></section>
 
 </main>
 <footer class="footer">
   <div class="footer-grid">
-    <div><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="48" height="48" rx="15" fill="currentColor" opacity=".12"/><path d="M12 31h7l3-12 5 24 4-17h9" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 15h10c7 0 11 4 11 10s-4 10-11 10h-6" fill="none" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/></svg></span><span><strong>Pulse &amp; Process</strong><em>Équiper. Optimiser.</em></span></a><p>Deux pôles clairement séparés : Pulse pour l’événementiel, Process pour l’amélioration terrain et les outils de pilotage.</p></div>
-    <div><h3>Pulse</h3><a href="pulse.html#location">Location son</a><a href="pulse.html#lumiere">Lumière</a><a href="pulse.html#installations">Installations</a></div>
-    <div><h3>Process</h3><a href="process.html#terrain">Amélioration terrain</a><a href="process.html#flux">Flux & déplacements</a><a href="process.html#outils">Excel, sites & IA</a></div>
-    <div><h3>Contact</h3><a href="mailto:contact@pulseprocess.fr">contact@pulseprocess.fr</a><a href="contact.html">Formulaire de demande</a><a href="mentions-legales.html">Mentions légales</a></div>
+    <div>
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">
+<svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+<rect x="4" y="4" width="72" height="72" rx="22" fill="currentColor" opacity=".12"/>
+<path d="M14 47h12l4-22 9 41 7-30h22" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 22h16c12 0 18 6 18 17s-7 18-19 18h-9" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+</svg></span><span><strong>Pulse &amp; Process</strong><em>Son, lumière & amélioration terrain</em></span></a>
+      <p>Deux pôles complémentaires autour de Dijon : Pulse pour l’événementiel, Process pour l’amélioration terrain et les outils de pilotage.</p>
+    </div>
+    <div><h3>Pulse</h3><a href="pulse.html#location">Location matériel</a><a href="pulse.html#installation">Installation technique</a><a href="pulse.html#lumiere">Lumière & ambiance</a></div>
+    <div><h3>Process</h3><a href="process.html#diagnostic">Diagnostic terrain</a><a href="process.html#smed">SMED</a><a href="process.html#cao">CAO & implantation</a><a href="process.html#outils">Outils Excel / IA</a></div>
+    <div><h3>Contact</h3><a href="mailto:contact@pulseprocess.fr">contact@pulseprocess.fr</a><a href="contact.html">Présenter un projet</a><a href="mentions-legales.html">Mentions légales</a></div>
   </div>
   <div class="footer-bottom"><span>© 2026 Pulse &amp; Process</span><span>pulseprocess.fr</span></div>
 </footer>
