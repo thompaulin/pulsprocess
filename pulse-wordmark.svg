@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 220" role="img" aria-label="Pulse">
+  <rect width="820" height="220" rx="44" fill="#070605"/>
+  <path d="M62 116 H108 L120 86 L142 146 L158 116 H210" stroke="#C8A45D" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="225" y="133" font-family="Arial, Helvetica, sans-serif" font-size="74" letter-spacing="22" fill="#F8F3EA">PULSE</text>
+  <line x1="356" y1="162" x2="463" y2="162" stroke="#C8A45D" stroke-width="4"/>
+  <text x="255" y="190" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="7" fill="#C8A45D">POWERED BY PULSE &amp; PROCESS</text>
+</svg>
