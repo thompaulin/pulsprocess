@@ -1,3 +1,1 @@
-# Site Pulse
-
-Site statique à mettre à la racine du dépôt GitHub. Tous les fichiers sont à la racine, sans dossier.
+Site vitrine Pulse — fichiers statiques à déposer à la racine du dépôt GitHub.
